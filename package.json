@@ -1,14 +1,18 @@
 {
-    "homepage": "https://olesyay.github.io/goit-js-hw-08/",
-    "scripts": {
-        "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
-    },
-    "devDependencies": {
-        "parcel": "^2.7.0"
-    },
-    "dependencies": {
-        "@vimeo/player": "^2.17.1",
-        "lodash.throttle": "^4.1.1",
-        "simplelightbox": "^2.10.3"
-    }
+  "homepage": "https://olesyay.github.io/goit-js-hw-08/",
+  "scripts": {
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "dependencies": {
+    "@vimeo/player": "^2.17.1",
+    "lodash.throttle": "^4.1.1",
+    "simplelightbox": "^2.10.3",
+    "modern-normalize": "^1.1.0"
+  }
 }
